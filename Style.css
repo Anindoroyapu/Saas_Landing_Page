@@ -86,6 +86,34 @@ img{
 .video{
     padding: 10px 0 40px;
 }
+.video-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-preview{
+    margin-bottom: 20px;
+
+}
+/* Testimonials*/
+.testimonials{
+    padding: 40px 0;
+    color: #fff;
+}
+.testimonials .testimonials-heading{
+    width: 700px;
+    margin-bottom: 40px;
+}
+.testimonials-gird{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   gap: 30px;
+}
+.testimonials .card p:nth-child(2){
+    margin-top: 30px;
+    font-weight: bold;
+}
+
 
 /*Utility Classes*/
 .container{
@@ -162,4 +190,26 @@ img{
 }
 .text-center{
     text-align: center;
+}
+/* Background*/
+.bg-primary{
+    background: var(--primary-color);
+    color: #fff;
+}
+.bg-light{
+    background: var(--light-color);
+}
+.bg-dark{
+    background: var(--dark-color);
+}
+.bg-black{
+    background: #000;
+    color: #fff;
+}
+/* Card*/
+.card{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding:20px ;
 }
