@@ -86,12 +86,12 @@ img{
 .video{
     padding: 10px 0 40px;
 }
-.video-content{
+.video .video-content{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.video-preview{
+.video .video-preview{
     margin-bottom: 20px;
 
 }
@@ -104,7 +104,7 @@ img{
     width: 700px;
     margin-bottom: 40px;
 }
-.testimonials-gird{
+.testimonials .testimonials-gird{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr ;
    gap: 30px;
@@ -113,7 +113,27 @@ img{
     margin-top: 30px;
     font-weight: bold;
 }
+/* Pricing*/
+.pricing-gird{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+.pricing-card-subheading{
+    margin-bottom: 30px;
+}
+.pricing-card-price{
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc ;
+}
+.pricing ul{
+    margin: 30px;
+}
+.pricing ul li{
 
+}
 
 /*Utility Classes*/
 .container{
@@ -125,6 +145,13 @@ img{
     max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
+}
+/* Card*/
+.card{
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding:20px ;
 }
 /* Buttons*/
 .btn{
@@ -205,11 +232,4 @@ img{
 .bg-black{
     background: #000;
     color: #fff;
-}
-/* Card*/
-.card{
-    background: #fff;
-    color: #000;
-    border-radius: 10px;
-    padding:20px ;
 }
