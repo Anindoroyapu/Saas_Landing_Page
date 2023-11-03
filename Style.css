@@ -342,7 +342,7 @@ img{
     width: 700px;
     margin-bottom: 40px;
 }
-.testimonials .testimonials-gird{
+.testimonials .testimonials-grid{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr ;
    gap: 30px;
@@ -352,7 +352,7 @@ img{
     font-weight: bold;
 }
 /* Pricing*/
-.pricing-gird{
+.pricing-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
