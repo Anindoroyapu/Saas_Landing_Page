@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded',() =>{
         // Close other open FAQ bodies
         const otherGrourps = faqContainer.querySelectorAll('faq-group');
         otherGrourps.forEach((otherGrourp) => {
+           
             
         })
          });
