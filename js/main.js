@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',() =>{
         if (!groupHeader) return;
 
         const group = groupHeader.parentElement;
-        const groupBody = group.querySelector('faq-group-body');
+        const groupBody = group.querySelector('.faq-group-body');
         const icon = groupHeader.querySelector('i');
 
         // Toggle icon
